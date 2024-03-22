@@ -34,8 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/admin/*" element={<Dashboard />} />
-      <Route path="/" element={<Navigate to="/admin/dashboard" replace />} />
+      <Route path="/*" element={<Dashboard />} />
     </Routes>
   </BrowserRouter>
 );

@@ -1,21 +1,4 @@
-/*!
 
-=========================================================
-* Paper Dashboard React - v1.3.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import Block from "views/Blockplayer";
 import Changepass from "views/Changepass";
 import Dashboard from "views/Dashboard.js";
@@ -44,211 +27,202 @@ import AdminBalance from "views/AdminBalance";
 import Dis from "views/Distributer";
 import Agent from "views/Agent";
 
-
-// import Notifications from "views/Notifications.js";
-// import Icons from "views/Icons.js";
-// import Typography from "views/Typography.js";
-// import TableList from "views/Tables.js";
-// import Maps from "views/Map.js";
-// import UserPage from "views/User.js";
-// import UpgradeToPro from "views/Upgrade.js";
-
 var routes = [
   {
-    path: "/dashboard",
+    path: "/",
     name: "Dashboard",
     icon: "nc-icon nc-bank",
     component: <Dashboard />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Genratepoint",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <BasicExample />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Subadmin",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Subadmin />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Todaysummary",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <TodaySummary />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Profileadmin",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <ProfilePage />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/TransferPoint",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <TransferPoint />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/ChangePin_transiction",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Changepintrans />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/PlayerHistory",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <PlayerHistory />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/GameDraw",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Draw />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Jokerlist",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Jokerlist />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/changepass",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Changepass />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/block",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Block />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/superadmin",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <SuperAdmin />,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Analysis",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Analysis/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Winning",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Winning/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Balance",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Profit/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/TurnOver",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Turn/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Report",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Report/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/WeeklyReport",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <WeeklyReport/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/TransferPointReport",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <TransferPointReport/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/ComissionReport",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <ComissionReport/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/GameProfit",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <GameProfit/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/ContactUs",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <ContactUs/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Win",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Win/>,
-    layout: "/admin",
+    layout: "",
   },
   {
-    path: "/AdminBalance",
+    path: "Balance",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <AdminBalance/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Dis",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Dis/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Agent",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Agent/>,
-    layout: "/admin",
+    layout: "",
   },
   {
     path: "/Player",
     name: "Genratepoint",
     icon: "nc-icon nc-bank",
     component: <Agent/>,
-    layout: "/admin",
+    layout: "",
   },
   
   
